@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: oldlace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+input{
+    width: 300px;
+    height: 50px;
+    border: 2px solid gray;
+}
+
+placeholder{
+  
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  button{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid gray;
+    cursor: pointer;
+
+  }
+
+  .name{
+    margin-bottom: 10px;
+  }
+
+
+ #heroContainer{
+  width: 90vw;
+  height: 70vh;
+ }
